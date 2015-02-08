@@ -1,0 +1,29 @@
+{
+  "name": "googlefontcss64",
+  "version": "1.0.0",
+  "description": "Download Google fonts and print base64 embedded style definitions.",
+  "main": "index.js",
+  "bin": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jo/googlefontcss64.git"
+  },
+  "keywords": [
+    "fonts",
+    "css",
+    "base64"
+  ],
+  "author": "Johannes J. Schmidt <schmidt@netzmerk.com> (http://die-tf.de/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jo/googlefontcss64/issues"
+  },
+  "homepage": "https://github.com/jo/googlefontcss64",
+  "dependencies": {
+    "async": "^0.9.0",
+    "css": "^2.1.0",
+    "googlefontcssmerge": "^1.0.0",
+    "mime": "^1.3.4",
+    "request": "^2.53.0"
+  }
+}
